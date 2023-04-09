@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1681020493 source:c:\users\admin\documents\huyen2\main.cpp
+	"bien_toan_cuc.h"
+	"ball.h"
+	"hinh_nen.h"
+
+1680800658 source:c:\users\admin\documents\huyen2\src\cac_bien_toan_cuc.cpp
+	"cac_bien_toan_cuc.h"
+
+1680800658 c:\users\admin\documents\huyen2\include\cac_bien_toan_cuc.h
+
+1681016960 c:\users\admin\documents\huyen2\include\bien_toan_cuc.h
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<algorithm>
+	<SDL_ttf.h>
+	<sstream>
+	<cstdlib>
+	<ctime>
+	<fstream>
+	<string.h>
+
+1680995620 source:c:\users\admin\documents\huyen2\src\bien_toan_cuc.cpp
+	"bien_toan_cuc.h"
+
+1681021050 source:c:\users\admin\documents\huyen2\src\ball.cpp
+	"bien_toan_cuc.h"
+	"ball.h"
+	<iostream>
+	<SDL.h>
+
+1680994132 c:\users\admin\documents\huyen2\include\ball.h
+	"bien_toan_cuc.h"
+	<iostream>
+
+1680991039 source:c:\users\admin\documents\huyen2\src\hinh_nen.cpp
+	"hinh_nen.h"
+
+1680980176 c:\users\admin\documents\huyen2\include\hinh_nen.h
+	"bien_toan_cuc.h"
+
+1680981943 source:c:\users\admin\documents\huyen2\src\chuot.cpp
+
+1680981552 c:\users\admin\documents\huyen2\include\chuot.h
+	"bien_toan_cuc.h"
+
