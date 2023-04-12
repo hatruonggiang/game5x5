@@ -4,7 +4,8 @@ Lấy cảm hứng từ rubix.
 Game có 25 quả bóng với 5 màu. mỗi màu 5 quả. 25 quả này sẽ được sắp xếp ngẫu nhiên vào 25 ô (1 bảng 5x5).
 
 Cách chơi game .
-đưa tất cả các hàng về cùng một màu bằng cách sử dụng các nút ở bên cột.
+
+đưa tất cả các bóng cùng màu về cùng một hàng bằng cách sử dụng các nút ở bên viền 5x5.
 
 Sau khi hoàn thành thì ấn nút "nộp bài".
 
