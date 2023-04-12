@@ -5,7 +5,9 @@ Game có 25 quả bóng với 5 màu. mỗi màu 5 quả. 25 quả này sẽ đ�
 
 Cách chơi game .
 đưa tất cả các hàng về cùng một màu bằng cách sử dụng các nút ở bên cột.
+
 sau khi hoàn thành thì ấn nút "nộp bài".
+
 có 2 chế độ khó dễ
 chế độ "dễ": sẽ chơi như bình thường
 chế độ "khó": cứ sau khi ấn thì tất cả viên bi di chuyển đó bạn sẽ không nhìn thấy màu của bọn nó nữa.
