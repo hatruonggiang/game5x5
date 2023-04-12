@@ -1,6 +1,8 @@
 # game5x5
 Giới thiệu game.
+
 Lấy cảm hứng từ rubix.
+
 Game có 25 quả bóng với 5 màu. mỗi màu 5 quả. 25 quả này sẽ được sắp xếp ngẫu nhiên vào 25 ô (1 bảng 5x5).
 
 Cách chơi game .
