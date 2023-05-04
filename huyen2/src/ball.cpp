@@ -14,38 +14,32 @@ void get_link_ball()
     {
         for(int i=1;i<6;i++)
         {
-
-
                if(j==1)
             {
-                g_ball[i][j]=LoadImage("image/black_ball.png");
+                g_ball[i][j]=LoadImage("image/black_gem.png");
             }
             else if(j==2)
             {
-                g_ball[i][j]=LoadImage("image/red_ball.png");
+                g_ball[i][j]=LoadImage("image/gem_red.png");
             }
             else if(j==3)
             {
-                g_ball[i][j]=LoadImage("image/green_ball.png");
+                g_ball[i][j]=LoadImage("image/green_gem.png");
             }
             else if(j==4)
             {
-                g_ball[i][j]=LoadImage("image/blue_ball.png");
+                g_ball[i][j]=LoadImage("image/blue_gem.png");
             }
             else if(j==5)
             {
-                g_ball[i][j]=LoadImage("image/pink_ball.png");
-            }
-            if(g_ball[i][j]==NULL)
-            {
-                std::cout<<"bug here"<<std::endl;
+                g_ball[i][j]=LoadImage("image/yellow_gem.png");
             }
         }
     }
 }
 
 
-void up_image_ball(int x,int y,int w,int h)
+void up_image_ball(int x,int y)
 {
     for(int i=1;i<6;i++)
     {
@@ -59,10 +53,16 @@ void up_image_ball(int x,int y,int w,int h)
         y-=(j)*100;
         }
     }
+//int a=25+x*100,b=25+y*100;
+//for( int i=1;i<6;i++)
+//{
+//
+//
+//}
+
 }
 void move_(int y,int x)
 {
-
        if (x==3 and (y==7 or y==8)  )
         {
             fog_ball_hard=1;
@@ -83,11 +83,11 @@ void move_(int y,int x)
     }
 
 
-    int x2;
-    int y2;
+    int x2=-1;
+    int y2=-1;
     if(x==2 and y==7)
     {
-        up_image_ball(25,25,50,50);
+        up_image_ball(25,25);
     }
     else if(y==0 and x!=6)
     {
@@ -102,6 +102,14 @@ void move_(int y,int x)
           {
               g_ball[x2][y2]=g_ball[x2-1][y2];
           }
+
+        }
+        if(fog_ball_hard==0)
+        {
+            for(int x3=1;x3<=5;x3++)
+            {
+                ApplySurface(g_ball[x3][y2],x3*100+25,y2*100+25,50,50);
+            }
         }
     }
     else if(y==6 and x!=6)
@@ -117,7 +125,13 @@ void move_(int y,int x)
           {
               g_ball[x2][y2]=g_ball[x2+1][y2];
           }
-
+        }
+        if(fog_ball_hard==0)
+        {
+            for(int x3=1;x3<=5;x3++)
+            {
+                ApplySurface(g_ball[x3][y2],x3*100+25,y2*100+25,50,50);
+            }
         }
     }
     else if(x==0 and y!=6)
@@ -133,7 +147,13 @@ void move_(int y,int x)
           {
               g_ball[x2][y2]=g_ball[x2][y2-1];
           }
-
+        }
+        if(fog_ball_hard==0)
+        {
+            for(int y3=1;y3<=5;y3++)
+            {
+                ApplySurface(g_ball[x2][y3],x2*100+25,y3*100+25,50,50);
+            }
         }
     }
     else if(x==6 and y!=6)
@@ -150,11 +170,14 @@ void move_(int y,int x)
               g_ball[x2][y2]=g_ball[x2][y2+1];
           }
         }
+        if(fog_ball_hard==0)
+        {
+            for(int y3=1;y3<=5;y3++)
+            {
+                ApplySurface(g_ball[x2][y3],x2*100+25,y3*100+25,50,50);
+            }
+        }
     }
-    if(fog_ball_hard==0 )
-    {
-        up_image_ball(25,25,50,50);
 
-    }
 }
 

@@ -1,8 +1,11 @@
 # depslib dependency file v1.0
-1681020493 source:c:\users\admin\documents\huyen2\main.cpp
+1683114392 source:c:\users\admin\documents\huyen2\main.cpp
 	"bien_toan_cuc.h"
 	"ball.h"
 	"hinh_nen.h"
+	"check_win.h"
+	"ham_random.h"
+	"music.h"
 
 1680800658 source:c:\users\admin\documents\huyen2\src\cac_bien_toan_cuc.cpp
 	"cac_bien_toan_cuc.h"
@@ -22,20 +25,21 @@
 	<fstream>
 	<string.h>
 
-1680995620 source:c:\users\admin\documents\huyen2\src\bien_toan_cuc.cpp
+1683114259 source:c:\users\admin\documents\huyen2\src\bien_toan_cuc.cpp
 	"bien_toan_cuc.h"
+	<SDL_mixer.h>
 
-1681021050 source:c:\users\admin\documents\huyen2\src\ball.cpp
+1683114782 source:c:\users\admin\documents\huyen2\src\ball.cpp
 	"bien_toan_cuc.h"
 	"ball.h"
 	<iostream>
 	<SDL.h>
 
-1680994132 c:\users\admin\documents\huyen2\include\ball.h
+1683114252 c:\users\admin\documents\huyen2\include\ball.h
 	"bien_toan_cuc.h"
 	<iostream>
 
-1680991039 source:c:\users\admin\documents\huyen2\src\hinh_nen.cpp
+1683025250 source:c:\users\admin\documents\huyen2\src\hinh_nen.cpp
 	"hinh_nen.h"
 
 1680980176 c:\users\admin\documents\huyen2\include\hinh_nen.h
@@ -45,4 +49,34 @@
 
 1680981552 c:\users\admin\documents\huyen2\include\chuot.h
 	"bien_toan_cuc.h"
+
+1681275932 c:\users\admin\documents\huyen2\include\check_win.h
+	"bien_toan_cuc.h"
+	"ball.h"
+	"hinh_nen.h"
+
+1681276167 source:c:\users\admin\documents\huyen2\src\check_win.cpp
+	"check_win.h"
+
+1681281751 source:c:\users\admin\documents\huyen2\src\ham_random.cpp
+	"ham_random.h"
+
+1681275227 c:\users\admin\documents\huyen2\include\ham_random.h
+	"bien_toan_cuc.h"
+	"ball.h"
+	"hinh_nen.h"
+	"check_win.h"
+
+1683195282 source:c:\users\admin\documents\huyen2\music.cpp
+	"bien_toan_cuc.h"
+	"ball.h"
+	"hinh_nen.h"
+	<SDL_mixer.h>
+	"music.h"
+
+1683114162 c:\users\admin\documents\huyen2\music.h
+	"bien_toan_cuc.h"
+	"ball.h"
+	"hinh_nen.h"
+	<SDL_mixer.h>
 

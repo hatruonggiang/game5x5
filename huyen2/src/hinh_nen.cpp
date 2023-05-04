@@ -2,7 +2,7 @@
 
  void up_hinh_nen(int x,int y,int w,int h)
 {
-    g_background=LoadImage("image/7x7.png");
+    g_background=LoadImage("image/7x7_2.png");
     ApplySurface(g_background,0,0,900,700);
     for(int j=1;j<6;j++){//i=0
             g_huong[0][j]=LoadImage("image/down.png");

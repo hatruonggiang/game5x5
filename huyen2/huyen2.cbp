@@ -36,13 +36,19 @@
 		<Unit filename="include/ball.h" />
 		<Unit filename="include/bien_toan_cuc.h" />
 		<Unit filename="include/cac_bien_toan_cuc.h" />
+		<Unit filename="include/check_win.h" />
 		<Unit filename="include/chuot.h" />
+		<Unit filename="include/ham_random.h" />
 		<Unit filename="include/hinh_nen.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="music.cpp" />
+		<Unit filename="music.h" />
 		<Unit filename="src/ball.cpp" />
 		<Unit filename="src/bien_toan_cuc.cpp" />
 		<Unit filename="src/cac_bien_toan_cuc.cpp" />
+		<Unit filename="src/check_win.cpp" />
 		<Unit filename="src/chuot.cpp" />
+		<Unit filename="src/ham_random.cpp" />
 		<Unit filename="src/hinh_nen.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
